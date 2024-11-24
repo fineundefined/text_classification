@@ -31,3 +31,4 @@ def create_model(vocab_size,max_length, model_name,dataset):
     print(f"Test dataset accuracy: {accuracy:.2f}")
     
     model.save(model_name)
+    
