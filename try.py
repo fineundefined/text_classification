@@ -30,3 +30,4 @@ if __name__ == "__main__":
         user_input = input("Type text to classify: ")
         answer = predict.predict_hate(user_input, model, tokenizer, max_length)
         print(f"Your message contains {predicts[answer]}")
+        

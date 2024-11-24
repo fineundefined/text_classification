@@ -7,3 +7,4 @@ def predict_hate(text, model, tokenizer, max_length):
     prediction = model.predict(padded)
     print(prediction)
     return prediction.argmax(axis=-1)[0]
+

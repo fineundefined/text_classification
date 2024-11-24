@@ -13,3 +13,4 @@ def hate_class(vocab_size, max_length):
         Dense(3, activation="softmax")
     ])
     return model
+

@@ -18,3 +18,4 @@ class dataset_:
         
         self.test_texts = [item["tweet"] for item in test_]
         self.test_labels =np.array([item["label"] for item in test_])
+
